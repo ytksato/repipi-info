@@ -1,4 +1,4 @@
-:root { color-scheme: light dark; --bg:#fbf3ec; --hero:#fdeee2; --surface:#fff; --text:#000; --muted:#636366; --accent:#fc5400; --link:#b93e00; --line:#d1d1d6; }
+:root { color-scheme: light dark; --bg:#fffaf6; --hero:#fff4eb; --surface:#fff; --text:#000; --muted:#636366; --accent:#fc5400; --link:#b93e00; --line:#dfd7d0; }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:1rem; line-height:1.85; overflow-wrap:anywhere; }
 a { color:var(--link); text-underline-offset:.22em; text-decoration-thickness:.08em; }
@@ -37,6 +37,6 @@ footer a { display:inline-block; padding:.5rem 0; min-height:44px; }
 .skip-link { position:absolute; left:1rem; top:-10rem; padding:.75rem 1rem; background:var(--surface); z-index:1; }
 .skip-link:focus { top:1rem; }
 @media (max-width:38rem) { .cards { grid-template-columns:1fr; } main { padding:1.5rem 1.1rem 2rem; } .header-inner { padding:.8rem 1.1rem; } }
-@media (prefers-color-scheme:dark) { :root { --bg:#1a120d; --hero:#241812; --surface:#1c1c1e; --text:#fff; --muted:#aeaeb2; --accent:#ff5500; --link:#ff5500; --line:#48484a; } }
+@media (prefers-color-scheme:dark) { :root { --bg:#241c17; --hero:#30241b; --surface:#2e2925; --text:#fff; --muted:#bdbdc2; --accent:#ff5500; --link:#ff884f; --line:#615851; } }
 @media (prefers-contrast:more) { :root { --muted:var(--text); --line:var(--text); --link:#8c2f00; } a { text-decoration-thickness:.15em; } }
 @media (prefers-color-scheme:dark) and (prefers-contrast:more) { :root { --link:#ffb58e; } }
