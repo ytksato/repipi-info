@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Repipi</title>
+  <meta name="description" content="This policy describes how the Repipi iPhone app handles data.">
+  <link rel="canonical" href="https://ytksato.github.io/repipi-info/privacy/en/">
+  <link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header"><div class="header-inner">
+    <a href="../../" class="wordmark">Repipi</a>
+    <nav aria-label="Main navigation"><a href="../../">Home</a> <a href="../">Privacy</a> <a href="../../support/">Support</a></nav>
+  </div></header>
+  <main id="main" tabindex="-1"><article class="policy"><div class="language-switch"><a href="../ja/" lang="ja">日本語</a></div><h1>Privacy Policy</h1><p class="updated">Last updated: October 7, 2026</p><p class="lead">This policy describes how the Repipi iPhone app handles data.</p><section aria-labelledby="section-1"><h2 id="section-1">1. Basic Policy</h2><p>Repipi reads, organizes, and stores your recipes entirely on your iPhone. The developer does not operate any server that collects user data. Recipes, photos, and cooking records you save never leave your device.</p></section>
+<section aria-labelledby="section-2"><h2 id="section-2">2. Processing That Stays On Your Device</h2><p>Extracting recipes from screenshots (image recognition and text structuring), parsing ingredients and amounts, suggesting substitutions, search, tagging, and cooking mode all run using on-device capabilities such as Apple Intelligence. None of this involves any network communication.</p>
+<p>When importing screenshots, the app may request photo-library access to read capture dates for the selected images. If a capture date cannot be read, it checks the image&#x27;s own metadata; without a date, the image becomes an import candidate with no capture time. It does not modify or delete original images in your photo library.</p></section>
+<section aria-labelledby="section-3"><h2 id="section-3">3. The One Exception For Recipe Import: Fetching a URL You Provide</h2><p><strong>Only when you enter or share a URL to import a recipe</strong>, Repipi connects directly to the site you specified in order to fetch that page (this doesn&#x27;t cover in-app purchase payments — see Section 5. Those are handled by Apple&#x27;s StoreKit, not by any communication Repipi builds itself).</p>
+<ul><li>The only destination contacted is <strong>the site behind the URL you entered or shared, including any redirect it sends you to</strong>. Repipi itself does not contact any other destination.</li><li>Fetching a web page technically requires sending some information to that site — <strong>the URL, your IP address, the User-Agent, and Accept-Language, among other standard HTTP request details.</strong></li><li>The connection uses encrypted HTTPS only, and no cookies or login credentials are ever sent.</li><li>Repipi only <strong>receives</strong> the page content over this connection. It never sends your recipe text, saved data, photos, or usage information to the fetched site or anywhere else.</li><li><strong>When you import a URL through the iOS share sheet</strong>, the fetch begins automatically as soon as Repipi opens — potentially before you&#x27;ve seen the in-app URL screen or Settings. The share sheet itself shows a brief notice before closing on its own after about a second, which may not be enough time to read it in full. Please be aware of this in advance.</li></ul></section>
+<section aria-labelledby="section-4"><h2 id="section-4">4. No Data Collection, No Tracking</h2><p>Repipi does not collect usage data or track you for advertising purposes.</p></section>
+<section aria-labelledby="section-5"><h2 id="section-5">5. Purchases</h2><p>In-app purchases (the one-time unlock) are processed through Apple&#x27;s StoreKit. Payment details (such as card numbers) are handled by Apple and never reach Repipi or its developer directly.</p></section>
+<section aria-labelledby="section-6"><h2 id="section-6">6. Deleting Your Data</h2><p>Use Delete All Data in Settings to request deletion of recipes, cooking records, received images and URLs, and other data stored in Repipi. This applies to data and image copies inside Repipi; it does not delete original photos in your photo library. The app reports a failed database deletion or files left behind after a database deletion. There is no copy retained by the developer, since the developer never received it in the first place.</p></section>
+<section aria-labelledby="section-7"><h2 id="section-7">7. Contact</h2><p>For questions about using Repipi, bugs, privacy, or concerns from rights holders about recipe imports, contact <a href="mailto:contact@dplabo.com">contact@dplabo.com</a>.</p><p>Contact details are also available on the <a href="../../support/">support page</a>. Information you include in an email is sent to the contact address through your email service. Recipes and photos stored in the app are not automatically attached or sent.</p></section>
+<section aria-labelledby="section-8"><h2 id="section-8">8. Revision History</h2><ul><li>2026-09-01: Added disclosure of network communication for URL imports.</li><li>2026-09-04: Clarified imports from entered and shared URLs.</li><li>2026-10-06: Clarified photo access for capture dates, missing-date handling, deletion of in-app copies, and failure notices.</li><li>2026-10-07: Added the contact address.</li></ul></section></article></main>
+  <footer><p>Repipi · <a href="mailto:contact@dplabo.com">contact@dplabo.com</a></p></footer>
+</body>
+</html>
