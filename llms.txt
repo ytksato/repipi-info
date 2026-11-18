@@ -1,0 +1,19 @@
+# repipi
+
+> 保存したレシピを、今日の食卓へ。材料・分量・手順を確認して保存し、人数に合わせた分量表示で料理できる iPhone のレシピ帳です。
+
+無料で 5 件まで保存できます。上限解除は買い切りで、月額課金ではありません。現在の価格は App Store で確認してください。
+iOS 26.0 以降に対応します。AI 機能には、対応端末で Apple Intelligence が有効になり、モデルを利用できる状態が必要です。
+対応するリンクは共有メニューや URL 入力から取り込めます。その他のレシピは材料と手順のスクリーンショットから取り込めます。対応先はアプリ内の「対応サイト」で確認できます。読み取り結果は保存前に確認・編集してください。
+URL 取得、StoreKit、外部リンク、任意のお問い合わせメール、Web サイトのホスティングは通信を伴う別の処理です。「外部通信が一切ない」サービスではありません。詳しくはプライバシーポリシーをご覧ください。
+
+## 公式情報
+
+- [repipi 公式ページ](https://ytksato.github.io/repipi-info/): 使い方、料金方式、対応条件、アプリ画面。
+- [サポート](https://ytksato.github.io/repipi-info/support/): 最初の保存手順、取り込みで困ったときの対処、問い合わせ先。日本語・英語。
+- [App Store](https://apps.apple.com/jp/app/id6819143064): 現在の配信情報と価格。
+
+## プライバシー
+
+- [日本語](https://ytksato.github.io/repipi-info/privacy/ja/): アプリと公開 Web サイトのデータの取り扱い。
+- [English](https://ytksato.github.io/repipi-info/privacy/en/): Data handling for the app and public website.
